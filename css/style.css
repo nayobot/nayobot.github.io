@@ -1,0 +1,408 @@
+/*CSS File of Nayo Discord Bot Website*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@900&display=swap');
+
+body {
+    background-color: #32333e;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.menu {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: #c83430;
+    display: inline-block;
+}
+.logo {
+    text-align:center;
+    margin:auto;
+    display:flex;
+    margin-top: 130px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.logo:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.logo2 {
+    text-align:center;
+    margin:auto;
+    display:flex;
+    margin-top: 100px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.logo2:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*.dezoom {
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 20px;
+    border: 3px solid #c83430;
+    width: 30%;
+    height: 30%;
+}
+.dezoom:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}*/
+.presentation h1 {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 40px;
+}
+.presentation h3 {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.presentation h4 {
+    text-align:left;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.error-header {
+    margin-top: 100px;
+}
+.pre_1 {
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+    vertical-align: middle;
+}
+.error-header h3 {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 30px;
+}
+.error-header p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.error-header a {
+    text-decoration: none;
+}
+.presentation p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.preloader {
+    z-index: 2;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 200px;
+}
+.desc {
+    background-color: #22232a;
+    border-radius: 10px;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*.profile img {
+    margin-top: 200px;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}*/
+.username {
+    display: block;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.avatar {
+    margin-top: 200px;
+    /*width: 200;
+    height: 200;*/
+    text-align:center;
+    margin:auto;
+    display:flex;
+    border: 2px solid #c83430;
+    border-radius:50%;
+    -webkit-animation: mover2 1s infinite alternate;
+    animation: mover2 1s infinite alternate;
+}
+.pres {
+    -webkit-box-align: center;
+    display: flex;
+    margin: 80px 5%;
+    width: 90%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.pres h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 30px;
+}
+.pres_2 {
+    -webkit-box-align: center;
+    display: flex;
+    margin: 80px 5%;
+    width: 90%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.pres_3 {
+    -webkit-box-align: center;
+    display: flex;
+    margin: 80px 5%;
+    width: 90%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.error-404 h1 {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 50px;
+}
+.error-404 {
+    text-decoration: none;
+    margin-top: 300px;
+}
+.error-404 p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+}
+.c-table-header h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 30px;
+}
+.c-table-header p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+}
+.c-table-header {
+    margin-top: 150px;
+    text-align: center;
+}
+.c-table {
+    /*border: 3px solid #c83430;
+    border-radius: 10px;*/
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.c-table th {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 20px;
+}
+.c-table td {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+}
+#c-table-input {
+    margin-top: 50px;
+    background-image: url('/imgs/search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-color: #32333e;
+    /*width: 100%;*/
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFF;
+    padding: 12px 20px 12px 40px;
+    border: 3px solid #c83430;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+
+#c-table-style {
+    border-collapse: separate;
+    border: 6px solid #c83430;
+    border-radius: 15px;
+    font-size: 18px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    height: 500px;
+    display:block;
+}
+
+table::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+}
+
+table::-webkit-scrollbar-thumb {
+    background: #c83430;
+    border-radius: 10px;
+}
+
+table::-webkit-scrollbar-thumb:hover {
+    background: #c83430;
+}
+
+#c-table-style th {
+    text-align: left;
+    padding: 12px;
+}
+
+#c-table-style td {
+    text-align: left;
+    padding: 12px;
+}
+
+#c-table-style tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#c-table-style tr.headerr {
+    font-size: 22px;
+}
+
+#c-table-style tr:hover {
+    background-color: #5a5b64;
+}
+.pres_3 h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #c83430;
+    font-size: 30px;
+}
+.loader {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: fixed;
+    background: #32333e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondu {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+.menu ul {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#spoiler-nsfw {
+    filter: blur(10px);
+}
+#spoiler-nsfw:hover {
+    filter: blur(0);
+}
+.menuimgs {
+    margin-top: 0;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 9px 15px;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+.menu li {
+    /*border-right: 1px solid #bbb;*/
+    margin-top: 0;
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 17px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.menu li a:hover {
+    -webkit-animation: mover 0.5s infinite alternate;
+    animation: mover 0.5s infinite alternate;
+}
+.mover-pre {
+    border-radius: 20px;
+    border: 3px solid #c83430;
+    width: 30%;
+    height: 30%;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+      0% {
+          transform: translateY(0);
+      }
+  
+      100% {
+          transform: translateY(-5px);
+      }
+}
+  
+@keyframes mover {
+      0% {
+          transform: translateY(0);
+      }
+  
+      100% {
+          transform: translateY(-5px);
+      }
+}
+
+@-webkit-keyframes mover2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
